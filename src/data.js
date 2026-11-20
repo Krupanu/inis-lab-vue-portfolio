@@ -1,10 +1,14 @@
+import project1 from './assets/project-1.webp';
+import project2 from './assets/project-2.webp';
+import project3 from './assets/project-3.webp';
+import project4 from './assets/project-4.webp';
 export const projects = [
   {
     id: 1,
     title: "Freelance Platform",
     description:
       "Учебная платформа: каталог исполнителей, карточки услуг и понятная навигация.",
-    imageUrl: "/assets/project-1.webp",
+    imageUrl: project1,
     tag: "WEB / PLATFORM",
   },
   {
@@ -12,7 +16,7 @@ export const projects = [
     title: "Food Delivery",
     description:
       "Учебный интерфейс доставки: меню, подбор блюд и оформление заказа.",
-    imageUrl: "/assets/project-2.webp",
+    imageUrl: project2,
     tag: "WEB / COMMERCE",
   },
   {
@@ -20,7 +24,7 @@ export const projects = [
     title: "Fitness Web",
     description:
       "Учебный сервис тренировок: расписание, программы и личный прогресс.",
-    imageUrl: "/assets/project-3.webp",
+    imageUrl: project3,
     tag: "WEB / WELLNESS",
   },
   {
@@ -28,7 +32,7 @@ export const projects = [
     title: "Developer Journal",
     description:
       "Концепция блога о разработке: статьи, заметки и библиотека материалов.",
-    imageUrl: "/assets/project-4.webp",
+    imageUrl: project4,
     tag: "WEB / EDITORIAL",
   },
 ];
